@@ -40,4 +40,4 @@ Este es el repositorio que contiene los diversos algoritmos que hemos implementa
   ```
     #Realiza la polimerizacion comptacional de una Unidad Repetitiva (UR) aprovechando el calculo en paralelo. Se debe ingresar por parametro
     # la UR a polimerizar y la cantidad de veces (la cantidad de UR que tendra la cadena resultante)
-      ```
+   ```
