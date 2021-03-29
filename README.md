@@ -9,26 +9,26 @@ Este es el repositorio que contiene los diversos algoritmos que hemos implementa
     #parametros de entrada:
     #unidadRepetitiva: cadena de caracteres correspondiente al codigo SMILES de la Unidad Repetitiva
     #n: numero de Unidades Repetitivas que se desean unir.
-    ```
+   ```
     
   *descriptoresCAMB.R
   ```
     #Realiza el calculo de descriptores utilizando la libreria camb (GeneratePadelDescriptors). Se debe setear la BD de polimeros que se desea
     #dicha BD debe contener el SMILES de cada polimero y la cantidad de URES necesarias para alcanzar el peso deseado (Mn, Mw, etc)
-```
+  ```
 
   *descriptoresRCDK.R
   ```
     #La funcion descriptoresRCDK() realiza el calculo en paralelo de la BD de polimeros que se desea cargar (modificable dentro de la funcion)
     #dicha BD debe contener el SMILES de cada polimero y la cantidad de URES necesarias para alcanzar el peso deseado (Mn, Mw, etc)
     #el calculo de descriptores lo realiza llamando a la funcion calcularDescriptores, la cual utiliza la libreria rcdk
-    ```
+   ```
     
   *descriptoresRCDK_serie.R
   ```
      #Realiza el calculo de descriptores utilizando la libreria rcdk. Se debe setear la BD de polimeros que se desea
      #dicha BD debe contener el SMILES de cada polimero y la cantidad de URES necesarias para alcanzar el peso deseado (Mn, Mw, etc)
-     ```
+   ```
      
   *filtrarDescriptores.R
   ```
